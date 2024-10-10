@@ -274,3 +274,7 @@
             margin: 0;
             color: #bbb;
         }
+
+        .footer-bottom p a{
+            text-decoration: none;
+        }
