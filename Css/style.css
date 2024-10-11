@@ -10,11 +10,12 @@
         }
 
         nav {
-            background-color: rgba(0, 0, 0, 0.904);
+            background-color: #f1efc0fa;
             padding: 10px 0;
+            box-sizing: 0 0 10px black;
             text-align: center;
-            position: fixed;
             width: 100%;
+            position: absolute;
             top: 0;
             z-index: 100;
         }
@@ -29,13 +30,13 @@
         }
 
         nav ul li a {
-            color: white;
+            color: black;
             text-decoration: none;
         }
 
         .hero {
             height: 100vh;
-            background-color: #444;
+            background-image: linear-gradient(to bottom, #2C3639 35%, #3F4E4F);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -56,15 +57,21 @@
 
         .hero-btn {
             padding: 10px 20px;
-            background-color: #ff5733;
+            background-color: #f9483fda;
             color: #333;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 5px 15px;
+            transition: border-radius 0.5s;
+        }
+
+        .hero-btn:hover{
+            border-radius: 20px 5px;
         }
 
         .services {
             padding: 50px 20px;
             text-align: center;
+            
         }
 
         .services h2 {
@@ -76,16 +83,22 @@
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            position: relative;
+            top: 100px;
             margin: 20px 0;
         }
 
         #services{
-            margin-top: 180px;
             height: 100vh;
+            background-image: linear-gradient(to bottom, #2C3639 35%, #3F4E4F);
+
         }
 
         #services h2{
             text-align: center;
+            position: relative;
+            color: white;
+            top: 100px;
         }
 
         .card {
@@ -131,7 +144,8 @@
     #about {
         padding: 50px 0;
         height: 100vh;
-        background-color: #f2f2f2;
+        background-image: linear-gradient(to bottom, #2C3639 35%, #3F4E4F);
+        color: white;
     }
 
     #about h2 {
@@ -191,10 +205,16 @@
     }
         .contact {
             padding: 50px 20px;
-            background-color: #333;
+            background-image: linear-gradient(to bottom, #2C3639 35%, #3F4E4F);
             color: #333;
             height: 100vh;
             text-align: center;
+        }
+
+        .contact h2{
+            position: relative;
+            top: 90px;
+            color: white;
         }
 
         .contact form {
@@ -230,7 +250,7 @@
 
         /* Footer Section */
         footer {
-            background-color: white;
+            background-color: #f1efc0dd;
             color: #333;
             padding: 20px 0;
             text-align: start;
