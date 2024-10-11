@@ -206,14 +206,15 @@ nav ul li a {
 }
 .contact form button {
     padding: 10px;
-    background-color: #ff5733;
+    background-color: #ecaf45;
     color: #333;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.5s;
 }
 .contact form button:hover {
-    background-color: #ff7733;
+    background-color: #ec9845;
 }
 /* Footer Section */
 footer {
