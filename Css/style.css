@@ -84,7 +84,7 @@ nav ul li a {
 .card {
     width: 220px;
     min-width: auto;
-    background-color: #FFD369;
+    background-color: #A6BB8D;
     padding: 20px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -93,7 +93,7 @@ nav ul li a {
     transition: background-color 0.5s;
 }
 .card:hover{
-    background-color: #f3ce78d9;
+    background-color: rgba(241, 211, 142, 0.851)
 }
 .card img {
     width: 100%;
@@ -101,7 +101,7 @@ nav ul li a {
     border-radius: 8px;
 }
 .card h3 {
-    color: #ff5733;
+    color: #1e0a05;
     margin-top: 15px;
 }
 .card p {
@@ -109,7 +109,7 @@ nav ul li a {
 }
 .card button {
     padding: 10px 20px;
-    background-color: #ff5733;
+    background-color: #4E6C50;
     color: white;
     border: none;
     border-radius: 5px;
